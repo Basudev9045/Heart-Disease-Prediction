@@ -6,7 +6,7 @@ model = joblib.load("logisticRegression_heart.pkl")
 scaler = joblib.load("scaler.pkl")
 excepted_columns = joblib.load("columns.pkl")
 
-st.title("Heart disease prediction by Basudev")
+st.title("Heart stroke prediction by Basudev")
 st.markdown("Provide the following details")
 
 age = st.slider("Age",18,100,40)
